@@ -4,8 +4,6 @@ import re
 
 options = Options()
 options.headless = True
-
-# Change to your webdriver path
 driver = webdriver.Firefox(
     executable_path=r"C:\\webdriver\\geckodriver.exe", options=options
 )
@@ -49,7 +47,7 @@ def get_famous_people():
         if log_or_not == "x":
             driver.quit()
             exit()
-        if log_or_not == "y" or "Y":
+        if log_or_not == "y":
             text_file = open("log.txt", "w")
             n = text_file.write(contacts)
             text_file.close()
