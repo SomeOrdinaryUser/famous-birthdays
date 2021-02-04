@@ -1,2 +1,2 @@
 # famous-birthdays
-Enter your birthday to find famous people who have the same birthday!
+Enter your birthday and find famous people with the same birthday!
